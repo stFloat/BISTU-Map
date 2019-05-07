@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\libs\baidumapapi_base_v4_2_0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7c08ec71d52a7575f2c830eb66a965379f606147">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_base_v4_2_0_e7ec3f3f277fdb2e96b87a6f08d2931acda8cc95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\libs\baidumapapi_util_v4_2_0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5843cea3ee0af9efcbc4b993c8f6ae0add585e08">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_util_v4_2_0_c493602efb6f4645f9d2db051c86fff470bc7eb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\libs\baidumapapi_map_for_bikenavi_v4_2_0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="076177e285f536d01c949d06ddd9c834862ac80d">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_map_for_bikenavi_v4_2_0_c11623eaf036f330995fbe9faec6417f8266999b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\libs\baidumapapi_radar_v4_2_0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4e201ff74c56c63565d67ce6198e4e5c4a46db2d">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_radar_v4_2_0_75f5d1fec161341a08c2fb9a516f27d5742a7e09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_06ef67b2276b357ea734cdafce7bba4170ad9532\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\libs\baidumapapi_bikenavi_v4_2_0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bbb5ea66f241086763a43457061b9f0c55dc3f2e">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_bikenavi_v4_2_0_e3806281f383a43a2ec6593652b5a99ef7b1fa60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android_studio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_c9d735d9bd53d4ca7ac545d4ac073a0e8fe66012\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b323769733be4c427e4b80ca73f823e724276506">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_07d5161f45a75e844ae093f7450281b1a7261396\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b626e9eef6d4e23294eee0c9804785772970723f">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_934f931ea77ea8953cf250fe7b9870ae3018f2ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_12593bf2a42016113928de815a7c531a83330d30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_be0ab8593324e6153228226b66306951b76fe24b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\libs\baidumapapi_search_v4_2_0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8d06187c234d671c1763712d58423e6e99137f98">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\2\baidumapapi_search_v4_2_0_15bd7289a44427a5155f40969f7981dcdf1d5e3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_7cc8cac2640b6f1be06ad3e4a609c9e084487841\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_1f4d4d7d4a8cd7afe25bd19105fb6b5fd1463b53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\jessieliu\Desktop\RidingNavigation\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_27fa9e78d298b06282b1bc72f63f4c1e75f50730\classes.dex" />
+    </item>
+
+</items>
