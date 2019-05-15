@@ -53,13 +53,9 @@ public class MainActivity extends Activity implements OnItemClickListener {
 	private GestureOverlayView gestureOverlayView;
 
 	private int[] image = { R.drawable.address_book, R.drawable.calendar,
-			R.drawable.camera, R.drawable.clock, R.drawable.games_control,
-			R.drawable.messenger, R.drawable.ringtone, R.drawable.settings,
-			R.drawable.speech_balloon, R.drawable.weather, R.drawable.world,
-			R.drawable.youtube };
+			R.drawable.camera, R.drawable.clock};
 
-	private String[] text = { "地图显示", "公交查询", "离线地图", "导航", "登录", "注册", "智能助手",
-			"个人中心", "娱乐", "浏览器", "紧急拨号", "关于" };
+	private String[] text = { "地图显示", "公交查询", "离线地图", "导航"};
 
 	Handler handler = new Handler() {
 		public void handleMessage(Message msg) {
