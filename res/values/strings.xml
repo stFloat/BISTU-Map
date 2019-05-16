@@ -19,5 +19,7 @@
     <string name="title_activity_modify">ModifyActivity</string>
     <string name="title_activity_face">FaceActivity</string>
     <string name="title_activity_speech">SpeechActivity</string>
+    <string name="title_activity_riding">title_activity_riding</string>
+    <string name="title_activity_walking">title_activity_walking</string>
 
 </resources>

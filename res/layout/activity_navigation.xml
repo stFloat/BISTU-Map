@@ -47,6 +47,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="startNavi"
-        android:text="调用百度地图开启导航" />
+        android:text="调用百度地图开启汽车导航" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image1" />
 
 </LinearLayout>

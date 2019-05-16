@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.traffic"
+<manifest package="com.android.traffic"
     android:versionCode="2"
-    android:versionName="2.0" >
+    android:versionName="2.0" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -60,7 +59,7 @@
 
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="yStSwCtBqwokyhRynS7rbv310fbiuCM2" >
+            android:value="bSvbXpdwBX6cr1OT9hVOUR445ETQv0M9" >
         </meta-data>
 
         <service
@@ -112,8 +111,12 @@
             android:label="@string/title_activity_geo_code" >
         </activity>
         <activity
-            android:name="com.android.traffic.FaceActivity"
-            android:label="@string/title_activity_face" >
+            android:name="com.android.traffic.rnavigation"
+            android:label="@string/title_activity_riding" android:icon="@drawable/riding" >
+        </activity>
+        <activity
+            android:name="com.android.traffic.wnavigation"
+            android:label="@string/title_activity_walking" android:icon="@drawable/walking">
         </activity>
         <activity
             android:name="com.android.traffic.SpeechActivity"

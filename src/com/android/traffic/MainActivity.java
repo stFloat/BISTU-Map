@@ -53,9 +53,10 @@ public class MainActivity extends Activity implements OnItemClickListener {
 	private GestureOverlayView gestureOverlayView;
 
 	private int[] image = { R.drawable.address_book, R.drawable.calendar,
-			R.drawable.camera, R.drawable.clock};
+			R.drawable.camera, R.drawable.clock, R.drawable.games_control,
+			R.drawable.messenger};
 
-	private String[] text = { "地图显示", "公交查询", "离线地图", "导航"};
+	private String[] text = { "地图显示", "公交查询", "离线地图", "驾车导航","骑行导航","步行导航"};
 
 	Handler handler = new Handler() {
 		public void handleMessage(Message msg) {
@@ -87,10 +88,17 @@ public class MainActivity extends Activity implements OnItemClickListener {
 				break;
 
 			case 5:
+				Intent intent_to_rnavigation = new Intent (context,
+						rnavigation.class);
+				startActivity(intent_to_rnavigation);
 	
 				break;
 
 			case 6:
+				Intent intent_to_wnavigation = new Intent (context,
+						wnavigation.class);
+				startActivity(intent_to_wnavigation);
+				
 
 				break;
 
@@ -430,10 +438,17 @@ public class MainActivity extends Activity implements OnItemClickListener {
 
 			break;
 		case 4:
-
+			Intent intent_to_rnavigation = new Intent (context,
+					rnavigation.class);
+			startActivity(intent_to_rnavigation);
+			overridePendingTransition(R.anim.come_in, R.anim.come_out);
 			break;
 
 		case 5:
+			Intent intent_to_wnavigation = new Intent (context,
+					wnavigation.class);
+			startActivity(intent_to_wnavigation);
+			overridePendingTransition(R.anim.come_in, R.anim.come_out);
 
 			break;
 		case 6:
