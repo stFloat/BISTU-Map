@@ -27,7 +27,11 @@ import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.navi.BaiduMapAppNotSupportNaviException;
 import com.baidu.mapapi.navi.BaiduMapNavigation;
 import com.baidu.mapapi.navi.NaviPara;
+import com.baidu.mapapi.walknavi.*;
+import com.baidu.mapapi.map.*;
+import com.baidu.mapapi.overlayutil.*;
 import com.baidu.mapapi.overlayutil.OverlayManager;
+import com.baidu.mapapi.search.*;
 import com.baidu.mapapi.search.core.SearchResult;
 import com.baidu.mapapi.search.geocode.GeoCodeOption;
 import com.baidu.mapapi.search.geocode.GeoCodeResult;
@@ -110,7 +114,7 @@ OnGetGeoCoderResultListener{
 			start_latitude = result.getLocation().latitude;
 			start_longitude = result.getLocation().longitude;
 
-			Log.i("Navigation", "开始纬度：" + start_latitude + "开始经度："
+			Log.i("wnavigation", "开始纬度：" + start_latitude + "开始经度："
 					+ start_longitude);
 			isFirst = false;
 			mSearch.geocode(new GeoCodeOption().city("").address(end_address));
@@ -118,11 +122,11 @@ OnGetGeoCoderResultListener{
 		} else if (isFirst == false) {
 			end_latitude = result.getLocation().latitude;
 			end_longitude = result.getLocation().longitude;
-			Log.i("Navigation", "结束纬度：" + end_latitude + "结束经度："
+			Log.i("wnavigation", "结束纬度：" + end_latitude + "结束经度："
 					+ end_longitude);
 			isFirst = true;
 
-			Log.i("Navigation", "开始纬度：" + start_latitude + ";开始经度："
+			Log.i("wnavigation", "开始纬度：" + start_latitude + ";开始经度："
 					+ start_longitude + "-----结束纬度：" + end_latitude + ";结束经度："
 					+ end_longitude);
 
@@ -135,10 +139,12 @@ OnGetGeoCoderResultListener{
 			para.endPoint = pt2;
 			para.endName = "到这里结束";
 
-	        try {
-	            BaiduMapNavigation.openBaiduMapNavi(para, this);
-	        } catch (BaiduMapAppNotSupportNaviException e) {
-	            e.printStackTrace();
+			
+
+			 try {
+		            BaiduMapNavigation.openBaiduMapWalkNavi(para, this);
+		        } catch (BaiduMapAppNotSupportNaviException e) {
+		            e.printStackTrace();
 	            
 	        
 				AlertDialog.Builder builder = new AlertDialog.Builder(this);

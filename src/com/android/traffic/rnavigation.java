@@ -11,12 +11,13 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.model.LatLng;
 import com.baidu.mapapi.navi.BaiduMapAppNotSupportNaviException;
 import com.baidu.mapapi.navi.BaiduMapNavigation;
 import com.baidu.mapapi.navi.NaviPara;
+import com.baidu.mapapi.overlayutil.*;
+import com.baidu.mapapi.bikenavi.*;
 import com.baidu.mapapi.search.core.SearchResult;
 import com.baidu.mapapi.search.geocode.GeoCodeOption;
 import com.baidu.mapapi.search.geocode.GeoCodeResult;
@@ -87,7 +88,7 @@ OnGetGeoCoderResultListener{
 			start_latitude = result.getLocation().latitude;
 			start_longitude = result.getLocation().longitude;
 
-			Log.i("Navigation", "开始纬度：" + start_latitude + "开始经度："
+			Log.i("avigation", "开始纬度：" + start_latitude + "开始经度："
 					+ start_longitude);
 			isFirst = false;
 			mSearch.geocode(new GeoCodeOption().city("").address(end_address));
@@ -112,7 +113,7 @@ OnGetGeoCoderResultListener{
 			para.endPoint = pt2;
 			para.endName = "到这里结束";
 			 try {
-		            BaiduMapNavigation.openBaiduMapNavi(para, this);
+		            BaiduMapNavigation.openBaiduMapBikeNavi(para, this);
 		        } catch (BaiduMapAppNotSupportNaviException e) {
 		            e.printStackTrace();
 				AlertDialog.Builder builder = new AlertDialog.Builder(this);

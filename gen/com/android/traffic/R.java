@@ -177,29 +177,32 @@ containing a value of this type.
         public static final int world=0x7f020052;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b0027;
+        public static final int RadioGroup=0x7f0b0021;
+        public static final int action_settings=0x7f0b002c;
+        public static final int bd=0x7f0b0022;
         public static final int bmapView=0x7f0b000e;
         public static final int city=0x7f0b0012;
-        public static final int display=0x7f0b0025;
-        public static final int display_fullscreen=0x7f0b002c;
+        public static final int display=0x7f0b002a;
+        public static final int display_fullscreen=0x7f0b0031;
+        public static final int gc=0x7f0b0023;
         public static final int id_back=0x7f0b0005;
         public static final int id_button=0x7f0b001a;
         public static final int id_city=0x7f0b000a;
         public static final int id_endAddress=0x7f0b001d;
         public static final int id_gestureOverlayView=0x7f0b0017;
         public static final int id_gridview=0x7f0b0018;
-        public static final int id_map_location=0x7f0b002d;
-        public static final int id_map_mode_common=0x7f0b002e;
-        public static final int id_map_mode_compass=0x7f0b0030;
-        public static final int id_map_mode_following=0x7f0b002f;
-        public static final int id_pic=0x7f0b0020;
+        public static final int id_map_location=0x7f0b0032;
+        public static final int id_map_mode_common=0x7f0b0033;
+        public static final int id_map_mode_compass=0x7f0b0035;
+        public static final int id_map_mode_following=0x7f0b0034;
+        public static final int id_pic=0x7f0b0025;
         public static final int id_province=0x7f0b0009;
         public static final int id_refresh=0x7f0b0007;
         public static final int id_right_bottom=0x7f0b0019;
         public static final int id_search=0x7f0b001e;
         public static final int id_searchkey=0x7f0b000b;
         public static final int id_startAddress=0x7f0b001c;
-        public static final int id_text=0x7f0b0021;
+        public static final int id_text=0x7f0b0026;
         public static final int id_textview=0x7f0b0016;
         public static final int id_title=0x7f0b0006;
         public static final int id_top=0x7f0b0004;
@@ -208,24 +211,26 @@ containing a value of this type.
         public static final int imageView1=0x7f0b001f;
         public static final int left_bottom=0x7f0b0000;
         public static final int left_top=0x7f0b0001;
+        public static final int listView_openBaiduMap=0x7f0b0024;
         public static final int localmaplist=0x7f0b0015;
-        public static final int map_common=0x7f0b0028;
-        public static final int map_heat=0x7f0b002b;
-        public static final int map_satellite=0x7f0b0029;
-        public static final int map_traffic=0x7f0b002a;
+        public static final int map_common=0x7f0b002d;
+        public static final int map_heat=0x7f0b0030;
+        public static final int map_satellite=0x7f0b002e;
+        public static final int map_traffic=0x7f0b002f;
         public static final int next=0x7f0b0010;
         public static final int nextline=0x7f0b000d;
+        public static final int open_Info=0x7f0b0020;
         public static final int pre=0x7f0b000f;
         public static final int progressBar=0x7f0b0014;
         public static final int province=0x7f0b0011;
-        public static final int ratio=0x7f0b0024;
-        public static final int remove=0x7f0b0026;
+        public static final int ratio=0x7f0b0029;
+        public static final int remove=0x7f0b002b;
         public static final int right_bottom=0x7f0b0002;
         public static final int right_top=0x7f0b0003;
         public static final int search=0x7f0b000c;
         public static final int state=0x7f0b0013;
-        public static final int title=0x7f0b0022;
-        public static final int update=0x7f0b0023;
+        public static final int title=0x7f0b0027;
+        public static final int update=0x7f0b0028;
     }
     public static final class layout {
         public static final int activity_browser=0x7f030000;
@@ -234,10 +239,11 @@ containing a value of this type.
         public static final int activity_main=0x7f030003;
         public static final int activity_map=0x7f030004;
         public static final int activity_navigation=0x7f030005;
-        public static final int activity_riding=0x7f030006;
-        public static final int activity_walking=0x7f030007;
-        public static final int gridview_item=0x7f030008;
-        public static final int offline_localmap_list=0x7f030009;
+        public static final int activity_open_baidumap=0x7f030006;
+        public static final int activity_riding=0x7f030007;
+        public static final int activity_walking=0x7f030008;
+        public static final int gridview_item=0x7f030009;
+        public static final int offline_localmap_list=0x7f03000a;
     }
     public static final class menu {
         public static final int browser=0x7f0a0000;

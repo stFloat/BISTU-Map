@@ -3,6 +3,7 @@
 	<name>Traffic</name>
 	<comment></comment>
 	<projects>
+		<project>BaiduLBS_Android</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
