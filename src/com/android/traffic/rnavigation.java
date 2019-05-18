@@ -17,7 +17,6 @@ import com.baidu.mapapi.navi.BaiduMapAppNotSupportNaviException;
 import com.baidu.mapapi.navi.BaiduMapNavigation;
 import com.baidu.mapapi.navi.NaviPara;
 import com.baidu.mapapi.overlayutil.*;
-import com.baidu.mapapi.bikenavi.*;
 import com.baidu.mapapi.search.core.SearchResult;
 import com.baidu.mapapi.search.geocode.GeoCodeOption;
 import com.baidu.mapapi.search.geocode.GeoCodeResult;
@@ -113,7 +112,7 @@ OnGetGeoCoderResultListener{
 			para.endPoint = pt2;
 			para.endName = "到这里结束";
 			 try {
-		            BaiduMapNavigation.openBaiduMapBikeNavi(para, this);
+		            BaiduMapNavigation.openBaiduMapNavi(para, this);
 		        } catch (BaiduMapAppNotSupportNaviException e) {
 		            e.printStackTrace();
 				AlertDialog.Builder builder = new AlertDialog.Builder(this);

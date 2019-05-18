@@ -3,7 +3,7 @@
 ## 1.项目简介
 &emsp;&emsp;&nbsp;该版本的百度地图SDK为v3.2.0. 使用百度地图SDK实现的功能有：普通地图显示、卫星地图显示、交通流量图显示、城市热力图显示、定位功能、模式切换（普通模式、跟随模式、罗盘模式）、公交地铁查询、离线地图下载和导航功能。其他的附加功能有浏览网页功能和通讯录功能。</br>
 &emsp;&emsp;&nbsp;系统主界面如下：
-![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/主界面.jpg)<br/><br/>
+![Alt text](https://github.com/chenyufeng1991/BaiduMap-TrafficAssistant/raw/master/Screenshots/主界面介绍.jpg)<br/><br/>
 ## 2.开发指南
 &emsp;&emsp;&nbsp;如果你下载或者clone代码，其实并不能在你的真机或者模拟器上显示出百度地图，还需要进行简单的百度地图SDK开发的配置。配置方式如下：
 ### （1）创建应用

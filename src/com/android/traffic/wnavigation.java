@@ -27,7 +27,6 @@ import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.navi.BaiduMapAppNotSupportNaviException;
 import com.baidu.mapapi.navi.BaiduMapNavigation;
 import com.baidu.mapapi.navi.NaviPara;
-import com.baidu.mapapi.walknavi.*;
 import com.baidu.mapapi.map.*;
 import com.baidu.mapapi.overlayutil.*;
 import com.baidu.mapapi.overlayutil.OverlayManager;
@@ -142,7 +141,7 @@ OnGetGeoCoderResultListener{
 			
 
 			 try {
-		            BaiduMapNavigation.openBaiduMapWalkNavi(para, this);
+		            BaiduMapNavigation.openBaiduMapNavi(para, this);
 		        } catch (BaiduMapAppNotSupportNaviException e) {
 		            e.printStackTrace();
 	            
